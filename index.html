@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="container">
+        <div class="half-container1">
+            <h1>HOME</h1>
+            <div class="score">
+                <h1 id="home">0</h1>
+            </div>
+            <div class="addScore">
+                <button onclick="home(1)">+1</button>
+                <button onclick="home(2)">+2</button>
+                <!-- <button onclick="home3()">+3</button> -->
+                <button onclick="home(3)">+3</button>
+            </div>
+        </div>
+        <div class="half-container1">
+            <h1>GUEST</h1>
+            <div class="score">
+                <h1 id="guest">0</h1>
+            </div>
+            <div class="addScore">
+                <button onclick="guest(1)">+1</button>
+                <button onclick="guest(2)">+2</button>
+                <button onclick="guest(3)">+3</button>
+            </div>
+        </div>
+    </div>
+    <h1 id="result"></h1>
+    <script src="index.js"></script>
+</body>
